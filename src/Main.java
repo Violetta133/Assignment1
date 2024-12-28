@@ -9,7 +9,7 @@ public class Main {
     public static void main(String[] args) throws FileNotFoundException {
         School school = new School();
 
-        Scanner studentScanner = new Scanner(new File("/Users/violettayun/IdeaProjects/assigment1/src/student.txt"));
+        Scanner studentScanner = new Scanner(new File("/Users/violettayun/IdeaProjects/Assigment.1/src/studens.txt"));
         while (studentScanner.hasNextLine()) {
             String line = studentScanner.nextLine().trim();
             if (!line.isEmpty()) {
