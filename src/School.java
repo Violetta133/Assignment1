@@ -16,12 +16,9 @@ public class School {
         return members;
     }
 
-    @Override
-    public String toString() {
-        StringBuilder result = new StringBuilder();
+    public void displayMembers() {
         for (Person member : members) {
-            result.append(member.toString()).append("\n");
+            System.out.println(member.toString());
         }
-        return result.toString();
     }
 }
