@@ -30,7 +30,7 @@ public class Main {
         }
         studentScanner.close();
 
-        Scanner teacherScanner = new Scanner(new File("/Users/violettayun/IdeaProjects/assigment1/src/teachers.txt"));
+        Scanner teacherScanner = new Scanner(new File("/Users/violettayun/IdeaProjects/Assigment.1/src/studens.txt"));
         while (teacherScanner.hasNextLine()) {
             String line = teacherScanner.nextLine().trim();
             if (!line.isEmpty()) {
